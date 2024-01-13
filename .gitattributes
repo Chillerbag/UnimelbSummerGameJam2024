@@ -1,3 +1,7 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dsymutil filter=lfs diff=lfs merge=lfs -text
 *.vsconfig filter=lfs diff=lfs merge=lfs -text
 *.meta filter=lfs diff=lfs merge=lfs -text
 *.unity filter=lfs diff=lfs merge=lfs -text
@@ -5386,7 +5390,6 @@
 *.state filter=lfs diff=lfs merge=lfs -text
 *.map filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.mvfrm filter=lfs diff=lfs merge=lfs -text
 *.rsp filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
@@ -5409,7 +5412,6 @@
 *.uss filter=lfs diff=lfs merge=lfs -text
 *.uxml filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
-*.so filter=lfs diff=lfs merge=lfs -text
 *.plist filter=lfs diff=lfs merge=lfs -text
 /My[[:space:]]project/Library/PackageCache/com.unity.2d.animation@9.0.4/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle/Contents/MacOS/BoundedBiharmonicWeightsModule filter=lfs diff=lfs merge=lfs -text
 /My[[:space:]]project/Library/PackageCache/com.unity.2d.animation@9.0.4/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
@@ -5439,7 +5441,6 @@
 /My[[:space:]]project/Library/PackageCache/com.unity.burst@1.8.11/.Runtime/hostlin/llvm-lipo filter=lfs diff=lfs merge=lfs -text
 /My[[:space:]]project/Library/PackageCache/com.unity.burst@1.8.11/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /My[[:space:]]project/Library/PackageCache/com.unity.burst@1.8.11/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.asmref filter=lfs diff=lfs merge=lfs -text
