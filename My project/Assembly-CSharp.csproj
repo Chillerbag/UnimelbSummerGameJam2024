@@ -64,6 +64,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ApplyDownSampling.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\WindowManager.cs" />
     <Compile Include="Assets\Scripts\Game Manager.cs" />
@@ -71,7 +72,11 @@
     <Compile Include="Assets\Scripts\SpeedrunFactory.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\ApplyPostProcess.cs" />
     <Compile Include="Assets\Scripts\videoLoader.cs" />
+    <Compile Include="Assets\Scripts\SwitchHighlight.cs" />
+    <Compile Include="Assets\Scripts\SwitchBackground.cs" />
+    <Compile Include="Assets\Scripts\BackgroundLoader.cs" />
     <Compile Include="Assets\Scripts\WindowUI.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -90,9 +95,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Shaders\PostProcessShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Shaders\PointClampSamplingShader.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
