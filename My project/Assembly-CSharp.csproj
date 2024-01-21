@@ -60,11 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\ApplyDownSampling.cs" />
-=======
     <Compile Include="Assets\Scripts\ApproveButton.cs" />
->>>>>>> main
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\WindowManager.cs" />
     <Compile Include="Assets\Scripts\Game Manager.cs" />
@@ -72,12 +69,10 @@
     <Compile Include="Assets\Scripts\SpeedrunFactory.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\DenyButton.cs" />
+    <Compile Include="Assets\Scripts\DisplayScore.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\ApplyPostProcess.cs" />
-=======
     <Compile Include="Assets\Scripts\MusicHandler.cs" />
->>>>>>> main
+    <Compile Include="Assets\Scripts\ApplyPostProcess.cs" />
     <Compile Include="Assets\Scripts\videoLoader.cs" />
     <Compile Include="Assets\Scripts\SwitchHighlight.cs" />
     <Compile Include="Assets\Scripts\SwitchBackground.cs" />
