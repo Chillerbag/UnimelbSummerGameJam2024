@@ -60,12 +60,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ApproveButton.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\WindowManager.cs" />
     <Compile Include="Assets\Scripts\Game Manager.cs" />
     <Compile Include="Assets\Scripts\Event Manager.cs" />
     <Compile Include="Assets\Scripts\SpeedrunFactory.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\DenyButton.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\MusicHandler.cs" />
     <Compile Include="Assets\Scripts\videoLoader.cs" />
